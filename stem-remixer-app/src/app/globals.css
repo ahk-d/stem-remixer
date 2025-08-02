@@ -24,3 +24,15 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.react-flow__node {
+  transform: scale(0.8); /* shrink to 80% */
+  transform-origin: top left;
+}
+
+
+/* DEV only, remove when deployed */
+.react-flow__panel.react-flow__attribution {
+  display:none!important;
+}
